@@ -172,7 +172,7 @@ const OrderDetails = () => {
         if (email.trim().length == 0) {
             emailDiv.classList.add('border', 'border-danger')
         } else {
-            if (email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\\.([a-zA-Z]{2,5})$") !== null) {
+            if (email.match("^([a-zA-Z0-9.]+)@([a-zA-Z0-9.]+)\\.([a-zA-Z]{2,5})$") !== null) {
                 emailDiv.classList.remove('border', 'border-danger')
                 emailDiv.classList.add('border', 'border-success')
             } else {

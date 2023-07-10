@@ -173,19 +173,19 @@ const Footer = () => {
                         <div className="col m-auto mt-0">
                             <h5 className="">Get Social With Us</h5>
                             <div className="d-flex justify-content-center">
-                                <a href="#" className="nav-link p-0 text-dark me-3">
+                                <a href="https://www.linkedin.com/" target="_blank" className="nav-link p-0 text-dark me-3">
                                     <i className="bi bi-linkedin fs-4"></i>
                                 </a>
-                                <a href="#" className="nav-link p-0 text-dark me-3">
+                                <a href="https://www.twitter.com/" target="_blank" className="nav-link p-0 text-dark me-3">
                                     <i className="bi bi-twitter fs-4"></i>
                                 </a>
-                                <a href="#" className="nav-link p-0 text-dark me-3">
+                                <a href="https://www.facebook.com/" target="_blank" className="nav-link p-0 text-dark me-3">
                                     <i className="bi bi-facebook fs-4"></i>
                                 </a>
-                                <a href="#" className="nav-link p-0 text-dark me-3">
+                                <a href="https://www.instagram.com/" target="_blank" className="nav-link p-0 text-dark me-3">
                                     <i className="bi bi-instagram fs-4"></i>
                                 </a>
-                                <a href="#" className="nav-link p-0 text-dark">
+                                <a href="https://www.whatsapp.com/" target="_blank" className="nav-link p-0 text-dark">
                                     <i className="bi bi-whatsapp fs-4"></i>
                                 </a>
                             </div>

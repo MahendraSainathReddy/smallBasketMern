@@ -229,7 +229,7 @@ const Header = () => {
                         </div>
                     </div>
                 </nav>
-                <nav className="navbar navbar-expand-xl shadow-sm" id="navbar2">
+                <nav className="navbar navbar-expand-xxl shadow-sm" id="navbar2">
                     <div className="container">
                         <span className="navbar-brand">Shop By Category:</span>
                         <button

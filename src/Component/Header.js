@@ -153,7 +153,7 @@ const Header = () => {
                             <i className="bi bi-geo-alt-fill text-danger fs-5 mt-2 me-2"></i>
                             <span className="fs-6 mt-1" id="locationNameNavBar">Location</span>
                         </div>
-                        <div className="text-center ms-3">
+                        <div className="d-flex justify-content-center text-center ms-3">
                             <div className="customSize m-auto">
                                 <img
                                     className="h-100 w-100"
@@ -163,7 +163,7 @@ const Header = () => {
                                     border="0"
                                 />
                             </div>
-                            <span className="text-center fs-6" id="temperatureText">--</span>
+                            <span className="text-center fs-6 mt-3" id="temperatureText">--</span>
                         </div>
                         <div className="ms-3 me-5" id="darkModeTextButton">
                             <a href="#" className="text-dark" onClick={darkMode}>
@@ -193,7 +193,7 @@ const Header = () => {
                                         </button>
                                     </div>
                                 </li>
-                                <li className="nav-item ms-3">
+                                <li className="nav-item ms-5">
                                     <div className="d-flex text-center">
                                         <Link className="nav-link" to="/myBasket">
                                             <i className="bi bi-basket text-danger fs-5" id="cartLogo"></i>

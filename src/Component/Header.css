@@ -1,0 +1,19 @@
+.searchBar {
+    width: 28rem !important;
+  }
+
+  .customSize {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .dropdown-item.active,
+  .dropdown-item:active {
+    text-decoration: none !important;
+    background-color: rgb(236 28 36) !important;
+  }
+
+  .dropdown-item:hover{
+    background-color: rgb(236 28 36) !important;
+    color: white !important;
+  }

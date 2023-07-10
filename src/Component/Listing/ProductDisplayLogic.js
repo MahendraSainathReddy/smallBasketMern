@@ -97,7 +97,7 @@ const ProductDisplay =() =>{
                         <div key={item.product_id} className='item'>
                             <div className="container">
                                 <div className="mt-5 row d-flex justify-content-around">
-                                    <div className="col-md-4 shadow-sm">
+                                    <div className="ProductImage col-md-4 shadow-sm">
                                         <img src={item.product_image} alt={item.product_name} className="image-fluid h-100 w-100"></img>
                                     </div>
                                     <div className="col-md-6">

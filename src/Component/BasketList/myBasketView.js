@@ -119,23 +119,55 @@ const BasketItems = () => {
                   <div className="row">
                     <div className="col-5">
                       <p className="fs-5 fw-bold">Number of Items</p>
+                    </div>
+                    <div className="col-2">
+                    <p className="fs-5 fw-bold">:</p>
+                    </div>
+                    <div className="col-5">
+                      <p className="fs-5 fw-bold text-primary">{itemsCount}</p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-5">
                       <p className="fs-5 fw-bold">MRP Total</p>
+                    </div>
+                    <div className="col-2">
+                    <p className="fs-5 fw-bold">:</p>
+                    </div>
+                    <div className="col-5">
+                      <p className="fs-5 fw-bold text-danger">₹{mrpTotal.toFixed(2)}</p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-5">
                       <p className="fs-5 fw-bold">Discount</p>
+                    </div>
+                    <div className="col-2">
+                    <p className="fs-5 fw-bold">:</p>
+                    </div>
+                    <div className="col-5">
+                      <p className="fs-5 fw-bold text-warning">{discount.toFixed(1)}%</p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-5">
                       <p className="fs-5 fw-bold">Delivery Charges</p>
+                    </div>
+                    <div className="col-2">
+                    <p className="fs-5 fw-bold">:</p>
+                    </div>
+                    <div className="col-5">
+                      <p className="fs-5 fw-bold text-info">Free</p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-5">
                       <p className="fs-5 fw-bold">Total</p>
                     </div>
                     <div className="col-2">
                     <p className="fs-5 fw-bold">:</p>
-                      <p className="fs-5 fw-bold">:</p>
-                      <p className="fs-5 fw-bold">:</p>
-                      <p className="fs-5 fw-bold">:</p>
-                      <p className="fs-5 fw-bold">:</p>
                     </div>
                     <div className="col-5">
-                      <p className="fs-5 fw-bold text-primary">{itemsCount}</p>
-                      <p className="fs-5 fw-bold text-danger">₹{mrpTotal.toFixed(2)}</p>
-                      <p className="fs-5 fw-bold text-warning">{discount.toFixed(1)}%</p>
-                      <p className="fs-5 fw-bold text-info">Free</p>
                       <p className="fs-5 fw-bold text-success">₹{total.toFixed(2)}</p>
                     </div>
                   </div>

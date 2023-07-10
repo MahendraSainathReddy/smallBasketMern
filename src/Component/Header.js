@@ -193,7 +193,7 @@ const Header = () => {
                                         </button>
                                     </div>
                                 </li>
-                                <li className="nav-item ms-5">
+                                <li className="nav-item ms-4">
                                     <div className="d-flex text-center">
                                         <Link className="nav-link" to="/myBasket">
                                             <i className="bi bi-basket text-danger fs-5" id="cartLogo"></i>
@@ -201,7 +201,7 @@ const Header = () => {
                                         </Link>
                                     </div>
                                 </li>
-                                <li className="nav-item ms-3">
+                                <li className="nav-item ms-4">
                                     <div className="d-flex text-center">
                                         <Link className="nav-link" to="/allOrders">
                                             <i className="bi bi-receipt-cutoff text-danger fs-5" id="cartLogo"></i>

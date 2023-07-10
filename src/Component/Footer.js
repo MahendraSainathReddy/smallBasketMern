@@ -218,9 +218,9 @@ const Footer = () => {
                         <span className="h6">Mahendra Sainath Reddy</span>
                     </p>
                     <p className="small">
-                        Tools Used : HTML5, CSS, Bootstrap5, JavaScript
+                        <strong>Tools Used :</strong> HTML5, CSS, Bootstrap5, JavaScript, NodeJS, ReactJS, Express, MongoDB
                     </p>
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mb-5">
                         <a
                             href="https://www.linkedin.com/in/mahendrasainathreddy/"
                             target="_blank"

@@ -149,21 +149,17 @@ const Header = () => {
                                 id="logoToggle"
                             />
                         </Link>
-                        <div className="ms-3 d-flex justify-content-center" id="geoLocationName">
-                            <i className="bi bi-geo-alt-fill text-danger fs-5 mt-2 me-2"></i>
-                            <span className="fs-6 mt-1" id="locationNameNavBar">Location</span>
+                        <div className="d-flex text-center">
+                            <Link className="nav-link" to="/myBasket">
+                                <i className="bi bi-basket text-danger fs-5" id="cartLogo"></i>
+                                <span className="text-dark fs-5 ms-2">Basket</span>
+                            </Link>
                         </div>
-                        <div className="d-flex justify-content-center text-center ms-3">
-                            <div className="customSize m-auto">
-                                <img
-                                    className="h-100 w-100"
-                                    id="tempIcon"
-                                    src="https://i.ibb.co/3MQbjB0/image.png"
-                                    alt="TempImage"
-                                    border="0"
-                                />
-                            </div>
-                            <span className="text-center fs-6 mt-3" id="temperatureText">--</span>
+                        <div className="d-flex text-center">
+                            <Link className="nav-link" to="/allOrders">
+                                <i className="bi bi-receipt-cutoff text-danger fs-5" id="cartLogo"></i>
+                                <span className="text-dark fs-5 ms-2">Orders</span>
+                            </Link>
                         </div>
                         <div className="ms-3 me-5" id="darkModeTextButton">
                             <a href="#" className="text-dark" onClick={darkMode}>
@@ -194,19 +190,23 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <div className="d-flex text-center">
-                                        <Link className="nav-link" to="/myBasket">
-                                            <i className="bi bi-basket text-danger fs-5" id="cartLogo"></i>
-                                            <span className="text-dark fs-5 ms-2">Basket</span>
-                                        </Link>
+                                    <div className="mt-3" id="geoLocationName">
+                                        <i className="bi bi-geo-alt-fill text-danger fs-5 ms-2"></i>
+                                        <span className="fs-6 ms-2" id="locationNameNavBar">Location</span>
                                     </div>
                                 </li>
                                 <li className="nav-item ms-4">
                                     <div className="d-flex text-center">
-                                        <Link className="nav-link" to="/allOrders">
-                                            <i className="bi bi-receipt-cutoff text-danger fs-5" id="cartLogo"></i>
-                                            <span className="text-dark fs-5 ms-2">Orders</span>
-                                        </Link>
+                                        <div className="customSize">
+                                            <img
+                                                className="h-100 w-100"
+                                                id="tempIcon"
+                                                src="https://i.ibb.co/3MQbjB0/image.png"
+                                                alt="TempImage"
+                                                border="0"
+                                            />
+                                        </div>
+                                        <span className="text-center fs-6 mt-3" id="temperatureText">--</span>
                                     </div>
                                 </li>
                                 {/* <li className="nav-item ms-5">
